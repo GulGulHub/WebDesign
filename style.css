@@ -1,1 +1,12 @@
-header{font-family: cursive;color: green;}  
+body
+header
+{font-family: 
+    cursive;
+    color: green;
+}
+
+div
+.slider {width: 33%;
+        float: right;
+        border: 1px black;
+    }
