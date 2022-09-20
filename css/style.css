@@ -1,12 +1,12 @@
 body
-header {
+header{
     font-family: 'Courier New', Courier, monospace;
     color: red;
+    height: 150px;
 }
 
 nav
-ul
-. {
+ul{
     display:block;
     font-family: 'Courier New', Courier, monospace; 
     color: green;
