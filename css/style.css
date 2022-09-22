@@ -7,6 +7,10 @@ header{
     font-family: 'Courier New', Courier, monospace; 
 }
 
+h1{
+    color: #ad3737;
+}
+
 .headingfix{
     float:left;
 }
@@ -25,9 +29,21 @@ nav {
   
 nav li {
     display: inline-block;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 10px;
+    padding: 10px;
 }
+
+.buttons li {
+    float: right;
+    list-style: none;
+    text-align: center;
+    background-color: #ad3737;
+    margin-right: 20px;
+    width: 80px;
+    line-height: 10px;
+    border-radius: 8px;
+
+  }
 
 main{
     width: 66%;
@@ -41,7 +57,7 @@ main{
 ul{
     display:block;
     font-family: 'Courier New', Courier, monospace; 
-    color: green;
+    color: white;
 }
 
 aside{
