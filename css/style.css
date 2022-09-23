@@ -1,6 +1,6 @@
 body
 header{
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     color: red;
     padding:20px,20px;
     height: 220px;
@@ -43,7 +43,13 @@ nav li {
     line-height: 10px;
     border-radius: 8px;
 
-  }
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: #ad3737;
+    color: white;
+}    
 
 main{
     width: 66%;
@@ -54,11 +60,6 @@ main{
     float: right
 }
 
-ul{
-    display:block;
-    font-family: 'Courier New', Courier, monospace; 
-    color: white;
-}
 
 aside{
     width: 33%;
@@ -72,9 +73,9 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: whitesmoke;
+    color: grey;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    padding:10px, 10px
+    padding:5px, 10px
  }
