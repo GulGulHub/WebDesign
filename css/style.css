@@ -1,18 +1,32 @@
 body
 header{
     background-color: whitesmoke;
-    color: red;
     padding:20px,20px;
     height: 220px;
     font-family: 'Courier New', Courier, monospace; 
+    display:block
 }
 
-h1{
+h1 {
     color: #ad3737;
+    margin-bottom: 0%;
+}
+
+span{
+    color: #d46464;
+}
+
+h2{
+    margin-top: 0%;
+}
+
+.h2c{
+    color: #d46464;
 }
 
 .headingfix{
-    float:left;
+    float:center;
+    text-align: right;
 }
 
 .logo{
