@@ -1,40 +1,45 @@
 body
 header{
-    background-color: whitesmoke;
-    padding:20px,20px;
     height: 220px;
-    font-family: 'Courier New', Courier, monospace; 
     display:block
 }
 
 h1 {
     color: #ad3737;
     margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 span{
-    color: #d46464;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2{
-    margin-top: 0%;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
+
 .h2c{
-    color: #d46464;
+    color: grey;
 }
 
 .headingfix{
-    float:center;
+    width:66%;
+    float:left;
     text-align: right;
 }
 
 .logo{
-    float: right;
+    width:300px;
+    float:right;
+    background-color: white;
+
 }
 
 nav {
-    background-color: yellow; 
+ 
     list-style-type: none;
     text-align: right;
     margin: 0;
@@ -56,6 +61,7 @@ nav li {
     width: 80px;
     line-height: 10px;
     border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -69,9 +75,12 @@ main{
     width: 66%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 100px;
     margin-left: 15px;
     margin-right: 15px;
-    float: right
+    margin top: 100px;
+    float:right;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -82,14 +91,28 @@ aside{
     float: left;
 }
 
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.caption {
+    display: block;
+    color: grey;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: whitesmoke;
     color: grey;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    padding:5px, 10px
+    padding:5px, 10px;
+    font-family: 'Montserrat', sans-serif;
  }
