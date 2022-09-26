@@ -10,7 +10,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-span{
+.jen {
+    color:#560000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ubersetzung {
     color: grey;
     font-family: 'Montserrat', sans-serif;
 }
