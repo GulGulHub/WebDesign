@@ -5,29 +5,45 @@ header{
 }
 
 h1 {
-    color: #ad3737;
+    color: black;
     margin-bottom: 0%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'SourceSansProRegular';
+    font-weight: normal;
+    font-style: normal; 
 }
 
 .jen {
-    color:#560000;
-    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-family: 'SourceSansProRegular';
+    font-weight: normal;
+    font-style: normal; ;
+}
+
+.theodor{
+    color:black;
+    font-family: 'SourceSansProRegular';
+    font-weight: normal;
+    font-style: normal; 
 }
 
 .ubersetzung {
-    color: grey;
-    font-family: 'Montserrat', sans-serif;
+    color: #aa3737;
+    font-family: 'SourceSansProRegular';
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 1.2em;
 }
 
 h2{
-    margin-top: 10px;
-    font-family: 'Montserrat', sans-serif;
+    margin-top:0%;
+    font-family: 'SourceSansProRegular';
+    font-weight: normal;
+    font-style: normal; 
 }
 
 
 .h2c{
-    color: grey;
+    color: #ad3737;
 }
 
 .headingfix{
@@ -66,7 +82,9 @@ nav li {
     width: 80px;
     line-height: 10px;
     border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'SourceSansProRegular';
+    font-weight: normal;
+    font-style: normal; 
 
 }
 
@@ -83,9 +101,11 @@ main{
     padding-top: 100px;
     margin-left: 15px;
     margin-right: 15px;
-    margin top: 100px;
+    margin-top: 100px;
     float:right;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'SourceSansProRegular';
+    font-weight: normal;
+    font-style: normal; 
 }
 
 
@@ -109,8 +129,22 @@ aside{
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
 }
-
-
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}  
 
 footer{
     position: fixed;
