@@ -21,28 +21,24 @@ h1 {
     color:black;
 }
 
-.theodor{
-    color:black;
-}
-
 .ubersetzung {
     color: #aa3737;
     font-size: 1.2em;
 }
 
 h2{
-    margin-top:0%;
-}
-
-
-.h2c{
+    margin-top:2px;
     color: #ad3737;
 }
+
+
+
 
 .headingfix{
     width:66%;
     float:left;
     text-align: right;
+    margin-top:50px;
 }
 
 .logo{
@@ -53,20 +49,19 @@ h2{
 }
 
 nav {
- 
-    list-style-type: none;
     text-align: right;
     margin: 0;
     padding: 0;
 }
   
 nav li {
+    list-style-type: none;
     display: inline-block;
     font-size: 10px;
     padding: 10px;
 }
 
-.buttons li {
+.buttons li{
     float: right;
     list-style: none;
     text-align: center;
@@ -82,6 +77,10 @@ nav li {
     background-color: #ad3737;
     color: white;
 }    
+
+.buttons li:hover{
+    background-color: aqua;
+}
 
 main{
     width: 66%;
@@ -109,6 +108,9 @@ aside{
     text-align: center;
 }
 
+aside li{
+    list-style-type: none;
+}
 .caption {
     display: block;
     color: grey;
