@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-area: 
+    header header header header
+    nav nav nav nav
+    aside aside main main
+    aside aside main main
+    footer footer footer footer;
+}
+
+
+header {
+   
+    background:grey
+    
+}
+
+nav{
+   
+    background:red
+}
+
+main{
+    
+    background: hotpink
+}
+
+aside{
+   
+    background:greenyellow;
+}
+
+footer{
+    
+    background: lightcoral;
+}
