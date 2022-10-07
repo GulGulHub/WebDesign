@@ -93,7 +93,6 @@ main{
     float:right;
 }
 
-
 aside{
     width: 20%;
     padding-left: 15px;
@@ -102,37 +101,6 @@ aside{
     float: left;
 }
 
-.item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-}
-
-aside li{
-    list-style-type: none;
-}
-.caption {
-    display: block;
-    color: grey;
-    padding-top: 10px;
-    font-family: 'Montserrat', sans-serif;
-}
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
-  
-.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-}
-  
-.left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-}  
 
 footer{
     position: fixed;
