@@ -82,6 +82,22 @@ nav li {
     background-color: aqua;
 }
 
+.container{
+    display:inline
+}
+
+
+aside{
+    clear:both;
+    vertical-align: center;
+    width: 20%;
+    padding-left: 15px;
+    padding-top: 100px;
+    margin-right: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
 main{
     width: 66%;
     padding-left: 15px;
@@ -93,13 +109,7 @@ main{
     float:right;
 }
 
-aside{
-    width: 20%;
-    padding-left: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
-    float: left;
-}
+
 
 
 footer{
