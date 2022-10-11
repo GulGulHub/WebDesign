@@ -10,25 +10,28 @@ font-weight: normal;
 font-style: normal; 
 }
 
+
+
 .container{
 display: grid;
 grid-template-areas:
 'header header header header header header'
 'nav nav nav nav nav nav'
 'aside main main main main main'
-'aside main main main main main'
 'footer footer footer footer footer footer';
+align-content: stretch;
+width: 100vw;
 }
 
 header {
-background:grey
+background:grey;
+height: 25vh;
 }
-
-
 
 h1 {
 color: black;
 margin-bottom: 0%;
+25%
 }
 
 .jen {
@@ -45,8 +48,6 @@ margin-top:2px;
 color: #ad3737;
 }
 
-
-
 .headingfix{
 width:66%;
 float:left;
@@ -62,18 +63,22 @@ background-color: white;
 }
 
 nav{
-background:red
+background:red;
+height: 5vh;
 }
+
+
 nav {
 text-align: right;
-margin: 0;
-padding: 0;
+margin: 0px;
 }
+
 nav li {
 list-style-type: none;
 display: inline-block;
 font-size: 10px;
-padding: 10px;
+padding-top: 10px;
+padding-bottom:10px;
 }
 
 .buttons li{
@@ -93,12 +98,13 @@ background-color: #ad3737;
 color: white;
 } 
 
-.buttons li:hover{
-background-color: aqua;
-}
+
+
+
 
 main{
-background: hotpink
+background: hotpink;
+height: 65vh;
 
 }
 
@@ -121,4 +127,5 @@ footer{
 color: grey;
 text-align: center;
 padding:5px, 10px;
+height: 5vh;
 }
