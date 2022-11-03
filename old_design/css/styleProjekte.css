@@ -75,7 +75,7 @@ h2 {
     width: 66%;
     float: left;
     text-align: right;
-    margin-top: 50px;
+    margin-top: 2rem;
     
 }
 
@@ -83,7 +83,6 @@ h2 {
     float: right;
     background-color: white;
     
-
 }
 
 
@@ -92,13 +91,13 @@ nav {
     padding-right: 2rem;
 }
 
-/*nav li {
+nav li {
     list-style-type: none;
     
     font-size: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-}*/
+}
 
 .buttons li {
    
@@ -129,10 +128,48 @@ main {
 }
 
 aside {
-    padding: 0.2rem;
+    padding: 2rem;
+    border:1px solid #fff;
+    color: grey;
+    position:relative;
+}
+
+.carousel1 {
+    text-align: center;
+    width: 200px;
+    
+}
+
+.img1 {
+    width: 100%;
+}
+.caption {
+    object-fit: scale-down;
 }
 
 
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent grey transparent transparent;
+    left: 0;
+    margin-left: 20px;
+  }
+    
+  #arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent grey;
+    right: 0;
+    margin-right: 20px;
+  }
 
 footer {
 
@@ -150,9 +187,7 @@ footer {
     
 }
 
-.wrapperMedia {
-    padding: 0.5rem;
-}
+
 
 @media only screen and (max-width:550px){
     .container{
