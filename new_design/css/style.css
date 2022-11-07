@@ -1,0 +1,100 @@
+:root {
+    --row-width: auto;
+}
+
+.customButton{
+    background-color:#aa3737!important; 
+    border:0px!important
+}
+    
+.customBtnSmall{
+    text-decoration:none;
+    color:white!important;
+}    
+
+
+header {
+    width: 100%;
+    height: auto;
+    
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0%;
+}
+
+.jen {
+    color: black;
+}
+
+.ubersetzung {
+    color: #aa3737;
+    font-size: 3rem;
+}
+
+h2 {
+    margin-top: 0.125rem;
+    color: #ad3737;
+}
+
+.headingfix {
+    width: 66%;
+    text-align: right;
+    
+}
+
+.logo {
+    float: right;
+    background-color: white;
+}
+
+.btnStyle{
+    font-size:14px; 
+    padding:10px!important; 
+    width: calc(15%-10px)!important;
+    
+}
+
+/*here starts nav
+
+.nav {
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.buttons li{
+    padding-top: 10rem;
+    float: right;
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+    width: 80px;
+    line-height: 10px;
+    border-radius: 8px; 
+}
+
+*/
+
+/*.buttons a {
+    text-decoration: none;
+    background-color: #ad3737;
+    color: white;
+}  */  
+
+
+
+
+
+
+.main{
+    height: 50%;
+
+
+}
+
+.footer{
+    display: grid;
+    text-align:center;
+}
