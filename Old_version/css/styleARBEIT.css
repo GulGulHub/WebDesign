@@ -1,113 +1,113 @@
 .item1 {
-    grid-area: header;
+grid-area: header;
 }
 
 .item2 {
-    grid-area: nav;
+grid-area: nav;
 }
 
 .item3 {
-    grid-area: aside;
+grid-area: aside;
 }
 
 .item4 {
-    grid-area: main;
+grid-area: main;
 }
 
 .item5 {
-    grid-area: footer;
+grid-area: footer;
 }
 
 .fontall {
-    font-family: 'SourceSansProRegular';
-    font-weight: normal;
-    font-style: normal;
+font-family: 'SourceSansProRegular';
+font-weight: normal;
+font-style: normal;
 }
 
 
 
 .container {
-    display: grid;
-    grid-template-areas:
-        'header header header header header header'
-        'nav nav nav nav nav nav'
-        'aside main main main main main'
-        'footer footer footer footer footer footer';
-    align-content: stretch;
-    width: 100vw;
+display: grid;
+grid-template-areas:
+'header header header header header header'
+'nav nav nav nav nav nav'
+'aside main main main main main'
+'footer footer footer footer footer footer';
+align-content: stretch;
+width: 100vw;
 }
 
 header {
-    height: 30vh;
+height: 30vh;
 }
 
 h1 {
-    color: black;
-    margin-bottom: 0%;
-    25%
+color: black;
+margin-bottom: 0%;
+25%
 }
 
 .jen {
-    color: black;
+color: black;
 }
 
 .ubersetzung {
-    color: #aa3737;
-    font-size: 1.2em;
+color: #aa3737;
+font-size: 1.2em;
 }
 
 h2 {
-    margin-top: 2px;
-    color: #ad3737;
+margin-top: 2px;
+color: #ad3737;
 }
 
 .headingfix {
-    width: 66%;
-    float: left;
-    text-align: right;
-    margin-top: 50px;
+width: 66%;
+float: left;
+text-align: right;
+margin-top: 50px;
 }
 
 .logo {
-    width: 300px;
-    float: right;
-    background-color: white;
+width: 300px;
+float: right;
+background-color: white;
 
 }
 
 nav {
-    height: 5vh;
+height: 5vh;
 }
 
 
 nav {
-    text-align: right;
-    margin: 0px;
+text-align: right;
+margin: 0px;
 }
 
 nav li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+list-style-type: none;
+display: inline-block;
+font-size: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 .buttons li {
-    float: right;
-    list-style: none;
-    text-align: center;
-    background-color: #ad3737;
-    margin-right: 20px;
-    width: 80px;
-    line-height: 10px;
-    border-radius: 8px;
+float: right;
+list-style: none;
+text-align: center;
+background-color: #ad3737;
+margin-right: 20px;
+width: 80px;
+line-height: 10px;
+border-radius: 8px;
 }
 
 .buttons a {
-    text-decoration: none;
-    background-color: #ad3737;
-    color: white;
+text-decoration: none;
+background-color: #ad3737;
+color: white;
 }
 
 
@@ -116,7 +116,7 @@ nav li {
 
 main {
 
-    height: 65vh;
+height: 65vh;
 
 }
 
@@ -128,12 +128,12 @@ footer {}
 
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: grey;
-    color: #595959;
-    padding: 5px, 10px;
-    height: 5vh;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: grey;
+color: #595959;
+padding: 5px, 10px;
+height: 5vh;
 }

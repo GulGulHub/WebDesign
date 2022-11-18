@@ -20,11 +20,11 @@ arrowLeft.addEventListener('click', displayNext)
 
 function displayNext (indexOfArrayDiv){
 
-    for (let  i=0; i<slideArray.length; i++){
-      make next div visible, make last invisible
-    }
-    
-    add to the page
+for (leti=0; i<slideArray.length; i++){
+make next div visible, make last invisible
+}
+
+add to the page
 } 
 
 
