@@ -1,37 +1,37 @@
-:root{
---main-font-family:source-sans;
---main-color:black;
---red-color:#aa3737
+:root {
+    --main-font-family: source-sans;
+    --main-color: black;
+    --red-color: #aa3737
 }
 
 /*html body{
     max-height: 100vh;
 }*/
 
-#boot-over-body{
-font-family: SourceSansProRegular;
+#boot-over-body {
+    font-family: SourceSansProRegular;
 }
 
 /*custom style heading*/
 
-#boot-over-header{
-max-height: 25vh;
+#boot-over-header {
+    max-height: 25vh;
 }
 
 
-h2{
-margin-top: 0.125rem;
-color: var(--red-color)
+h2 {
+    margin-top: 0.125rem;
+    color: var(--red-color)
 }
 
 h1 {
-color: var(--main-color);
-margin-bottom: 0%;
+    color: var(--main-color);
+    margin-bottom: 0%;
 }
 
 .ubersetzung {
- font-size: 3rem;
- color: var(--red-color);
+    font-size: 3rem;
+    color: var(--red-color);
 }
 
 
@@ -40,86 +40,152 @@ margin-bottom: 0%;
 
 /*custom style nav*/
 
-#end-hover:hover{
+#customButton1{
+    background-color: var(--red-color);
+    width: 6rem;
+}
+
+#customButton2{
+    background-color: var(--red-color);
+    width: 6rem;
+}
+
+#customButton3{
+    background-color: var(--red-color);
+    width: 6rem;
+}
+
+/*
+
+
+/*nav li[id^=end-hover]:hover{
+    text-decoration: none;
     pointer-events:none;
     color:white
 }
 
-li[id^=boot-over-nav]{
-background-color:var(--red-color); 
-border:0px; 
-font-size:12px; 
-padding:3px; 
-width: calc(10% - 3px);color:white;
+nav li[id^=boot-over-nav] {
+    background-color: var(--red-color);
+    border: 0px;
+    font-size: 12px;
+    padding: 3px;
+    width: calc(10% - 3px);
 }
 
-.remove-link{
-text-decoration:none;
-outline: none;
-color: white;
-  
+/*remove-link{
+    text-decoration:none;
+    color: white;
+    }
+
+
+#boot-over-nav-1:hover,
+#boot-over-nav-1:visited,
+#boot-over-nav-1:link,
+#boot-over-nav-1:active {
+    background-color: var(--red-color);
 }
+
+#boot-over-nav-2:hover,
+#boot-over-nav-2:visited,
+#boot-over-nav-2:link,
+#boot-over-nav-2:active {
+    background-color: var(--red-color);
+}
+
+#boot-over-nav-3:hover,
+#boot-over-nav-3:visited,
+#boot-over-nav-3:link,
+#boot-over-nav-3:active {
+    background-color: var(--red-color);
+}
+
+#end31:hover,
+#end1:visited,
+#end1:link,
+#end1:active {
+    text-decoration: none;
+    color: white;
+}
+
+#end2:hover,
+#end2:visited,
+#end2:link,
+#end2:active {
+    text-decoration: none;
+    color: white;
+}
+
+#end3:hover,
+#end3:visited,
+#end3:link,
+#end3:active {
+    text-decoration: none;
+    color: white;
+}
+
+*/
 
 /*custom style for row main + aside*/
 
 #boot-over-height {
-min-height:50vh; 
+    min-height: 50vh;
 }
 
 .carousel {
-position: relative;
-min-height:60vh;
-display:flex;
+    position: relative;
+    min-height: 60vh;
+    display: flex;
 }
 
-.carousel-item{
-text-align: center;
-font-size: 15px;
+.carousel-item {
+    text-align: center;
+    font-size: 15px;
 
 }
-.testimonial-img{
-border:1px, solid, black;
+
+.testimonial-img {
+    border: 1px, solid, black;
 }
 
-.text{
-text-align: left;
+.text {
+    text-align: left;
 }
 
 .carousel-control-prev {
-filter: invert(100%);
+    filter: invert(100%);
 }
 
- .carousel-control-next {
-filter: invert(100%);
+.carousel-control-next {
+    filter: invert(100%);
 }
 
 
 
 /* main Index*/
 
-table a{
-    color:var(--red-color);
+table a {
+    color: var(--red-color);
     text-decoration: none;
 }
 
-#mehrText{
-    color:var(--red-color);
+#mehrText {
+    color: var(--red-color);
     text-decoration: none;
 }
 
-#mehrTextLinkProjekte{
-    color:var(--red-color);
+#mehrTextLinkProjekte {
+    color: var(--red-color);
     text-decoration: none;
 }
 
-.Projektelink{
-    color:var(--red-color);
+.Projektelink {
+    color: var(--red-color);
     text-decoration: none;
 }
 
 
-#boot-over-list{
-border:none;
+#boot-over-list {
+    border: none;
 }
 
 
@@ -130,8 +196,8 @@ text-align:center;
 color: grey;
 }*/
 
-footer{
-    color:grey;
+footer {
+    color: grey;
 }
 
 .footer {
@@ -139,4 +205,4 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    }
+}
