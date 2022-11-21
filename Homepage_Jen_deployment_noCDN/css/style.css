@@ -40,90 +40,30 @@ h1 {
 
 /*custom style nav*/
 
-#customButton1{
+#customButton1 {
     background-color: var(--red-color);
-    width: 6rem;
-}
-
-#customButton2{
-    background-color: var(--red-color);
-    width: 6rem;
-}
-
-#customButton3{
-    background-color: var(--red-color);
-    width: 6rem;
-}
-
-/*
-
-
-/*nav li[id^=end-hover]:hover{
-    text-decoration: none;
-    pointer-events:none;
-    color:white
-}
-
-nav li[id^=boot-over-nav] {
-    background-color: var(--red-color);
-    border: 0px;
+    width: 10rem;
     font-size: 12px;
-    padding: 3px;
-    width: calc(10% - 3px);
+    font-variant: small-caps;
 }
 
-/*remove-link{
-    text-decoration:none;
-    color: white;
-    }
-
-
-#boot-over-nav-1:hover,
-#boot-over-nav-1:visited,
-#boot-over-nav-1:link,
-#boot-over-nav-1:active {
+#customButton2 {
     background-color: var(--red-color);
+    width: 10rem;
+    font-size: 12px;
+    font-variant: small-caps;
+
 }
 
-#boot-over-nav-2:hover,
-#boot-over-nav-2:visited,
-#boot-over-nav-2:link,
-#boot-over-nav-2:active {
+#customButton3 {
     background-color: var(--red-color);
+    width: 10rem;
+    font-size: 12px;
+    font-variant: small-caps;
 }
 
-#boot-over-nav-3:hover,
-#boot-over-nav-3:visited,
-#boot-over-nav-3:link,
-#boot-over-nav-3:active {
-    background-color: var(--red-color);
-}
 
-#end31:hover,
-#end1:visited,
-#end1:link,
-#end1:active {
-    text-decoration: none;
-    color: white;
-}
 
-#end2:hover,
-#end2:visited,
-#end2:link,
-#end2:active {
-    text-decoration: none;
-    color: white;
-}
-
-#end3:hover,
-#end3:visited,
-#end3:link,
-#end3:active {
-    text-decoration: none;
-    color: white;
-}
-
-*/
 
 /*custom style for row main + aside*/
 
@@ -159,14 +99,37 @@ nav li[id^=boot-over-nav] {
     filter: invert(100%);
 }
 
+.carousel-control-prev-icon {
+    position: absolute;
+    top: 15rem;
+    left: 20px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    top: 15rem;
+    right: 20px;
+}
+
 
 
 /* main Index*/
+
+main h3 {
+    font-variant: small-caps
+}
 
 table a {
     color: var(--red-color);
     text-decoration: none;
 }
+
+table a:hover {
+    text-decoration: var(--red-color);
+    pointer-events: none;
+}
+
+
 
 #mehrText {
     color: var(--red-color);
@@ -176,12 +139,33 @@ table a {
 #mehrTextLinkProjekte {
     color: var(--red-color);
     text-decoration: none;
+    font-size: 2rem;
+    border: 1px, solid, red;
+    font-variant: small-caps;
 }
 
-.Projektelink {
+main a {
+    color: var(--red-color);
+    
+}
+#imgJen{
+    width:385px;
+    padding-left: 8rem;
+}
+
+#linkDatenschutz {
     color: var(--red-color);
     text-decoration: none;
+    
 }
+
+#linkDatenschutz:hover {
+    text-decoration: var(--red-color);
+    pointer-events: none;
+}
+
+
+
 
 
 #boot-over-list {
@@ -189,12 +173,9 @@ table a {
 }
 
 
+/*footer*/
 
-/*#boot-over-footer{
-display: grid;
-text-align:center;
-color: grey;
-}*/
+
 
 footer {
     color: grey;
