@@ -153,7 +153,7 @@ main a {
     padding-left: 8rem;
 }
 
-#linkDatenschutz {
+/*#linkDatenschutz {
     color: var(--red-color);
     text-decoration: none;
     
@@ -162,9 +162,15 @@ main a {
 #linkDatenschutz:hover {
     text-decoration: var(--red-color);
     pointer-events: none;
+}*/
+
+#borderDaten{
+    border: 1px, solid, var(--red-color);
 }
 
-
+.btn btn-outline-danger{
+    border-color: var(--red-color);
+}
 
 
 
