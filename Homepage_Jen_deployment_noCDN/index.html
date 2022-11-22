@@ -18,46 +18,46 @@
 
 <body id="boot-over-body" class="d-flex flex-column h-100">
 
-    <!--header-->
+    <!--headeclass="w-auto h-auto"--->
 
-    <header id=boot-over-header class="row mt-2">
+    <header id=boot-over-header class="row mt-2 m-sm-3">
 
         <div class="col-8 text-end mt-5">
             <h1> Jennifer Sophia Theodor <br> <span class="ubersetzung">Übersetzung</span>
             </h1>
             <h2 id="boot-over-h2"> aus dem Englischen</h2>
         </div>
-        <div class="col-4 d-none d-md-block">
-            <img src="images/Buchblume.png" alt="Logo rote Buchblume" class="w-auto h-auto">
+        <div class="col-4 m-xs-0" >
+            <img src="images/Buchblume.png" alt="Logo rote Buchblume"  id="logo">
         </div>
     </header>
 
 
+   
+
+
+<!--Navigation-->
+
     <nav>
-        <div class="d-flex flex-row-reverse">
-            <ul class="list-group list-group-horizontal float-right pe-5">
-                <li class="list-group-item border-0 ">
-                    <a class="btn btn-primary btn-sm border-0" id="customButton1" href="index.html">Über</a>
-                </li>
-                <li class="list-group-item border-0">
-                    <a class="btn btn-primary btn-sm border-0" id="customButton2" href="projekte.html">Projekte</a>
-                </li>
-                <li class="list-group-item border-0">
-                    <a class="btn btn-primary btn-sm border-0" id="customButton3" href="kontakt.html">Kontakt</a>
-                </li>
-            </ul>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2 ms-2 me-2" >
+
+            <a class="btn btn-default bborder-0" href="index.html" role="button" id="customButton1" >Über</a>
+            <a class="btn btn-default bborder-0" href="projekte.html" role="button" id="customButton2" >Projekte</a>
+            <a class="btn btn-default bborder-0" href="kontakt.html" role="button" id="customButton3" >Kontakt</a>
+
         </div>
     </nav>
+ 
 
 
 
-    <!--middle section-->
+    <!-- middle section-->
 
     <div class="container-fluid">
         <div id="boot-over-height" class="row mt-5">
 
             <!--start aside carousel-->
-            <aside class="col-3  d-none d-lg-block">
+            <aside class="col-3  d-none d-md-block">
 
                 <div id="testimonials" class="carousel slide" data-interval="false" data-bs-keyboard="true">
                     <div class="carousel-inner">
@@ -180,10 +180,9 @@
 
             <!---main section -->
 
-            <main id="boot-over-main" class="col-9 pe-5" class="fontall" class="d-flex align-items-stretch"
-                class="d-flex flex-column-4">
+            <main id="boot-over-main" class="col-md-9 " class="fontall">
                 <h3>Über</h3>
-                <p class="mt-4 fs-5">
+                <p class="mt-4 fs-5 me-lg-5">
                     Übersetzung als Motiv begleitet mich schon lange. Mittlerweile weiß ich, dass sie für soziale
                     Bewegungen, für akademische Wissensstrukturen und für politische Geschichte von grundlegender
                     Bedeutung ist. Übersetzung ist eine intime Form des Lesens und eine sensible Neuschreibung in einen
@@ -199,22 +198,47 @@
                     filmisch oder aktivistisch.
                     <br>
                 </p>
-                <p>
+
+                <p class="d-sm-block d-xs-block d-md-none fs-5">
+
+                    <br>
+                    Ich arbeite häufig an Genregrenzen und würde gerne mehr Literarisches übersetzen. Zugleich
+                    engagiere ich mich für die Aufwertung von Sachtextübersetzung. Ich begreife Übersetzungsarbeit
+                    als kreatives politisches Unterfangen, das immer der entsprechenden diskursiven und sprachlichen
+                    Verantwortung bedarf.
+                    <br>
+                    <br>
+                    Grundsätzlich folge ich einer funktionalen Herangehensweise, habe also die Wirkung des
+                    übersetzten Textes im Zielkontext im Blick. Im Rahmen historischer Genauigkeit übersetze ich
+                    diskriminierungssensibel und finde leidenschaftlich gern einfache Lösungen für schwierige
+                    Textsituationen.
+                    <br>
+                    <br>
+                    Ich nehme mir Zeit für pünktliche Abgaben, gründliche Besprechungen und gemeinsame Bearbeitung.
+                    Gerne bin ich im direkten Kontakt mit Autor_innen selbst, um inhaltliche Rückfragen direkt zu
+                    klären. Es entsteht ein finaler, fehlerfreier Entwurf – bereit fürs Lektorat. Denn Lektor*innen
+                    geben einem jeden Text am Ende den letzten Schliff und sind dabei noch unsichtbarer als
+                    Übersetzer*innen.
+                    <br>
+                    <br>
+
+                </p>
+
+                <p class="btn btn-outline-danger fs-5">
                     <a data-bs-toggle="collapse" href="#moreText" role="button" aria-expanded="false"
                         aria-controls="moreText" id="mehrText">
                         ...
                     </a>
                 </p>
                 <div class="collapse" id="moreText">
-                    <div class="card card-body">
+                    <div class="card card-body fs-5 me-5">
 
                         <br>
                         Ich arbeite häufig an Genregrenzen und würde gerne mehr Literarisches übersetzen. Zugleich
                         engagiere ich mich für die Aufwertung von Sachtextübersetzung. Ich begreife Übersetzungsarbeit
                         als kreatives politisches Unterfangen, das immer der entsprechenden diskursiven und sprachlichen
-                        Verantwortung bedarf. (Hier ausführlicher und in meiner M.A.-Abschlussarbeit <br> <a href="">
-                            M.A.-Abschlussarbeit „Übersetzung als politische Arbeit“</a>
-                        )
+                        Verantwortung bedarf.
+                        <br>
                         <br>
                         <br>
                         Grundsätzlich folge ich einer funktionalen Herangehensweise, habe also die Wirkung des
@@ -247,7 +271,7 @@
 
 
     <footer class="footer">
-        <h4 class="text-center">Jen Theodor · info[at]jstheodor.de</h4>
+        <h5 class="text-center">Jen Theodor · info[at]jstheodor.de</h4>
     </footer>
     
     <script src="assets/bootstrap.js"></script>
