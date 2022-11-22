@@ -23,7 +23,7 @@
         display: container;
         min-height: 30vh;
         margin-left: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         
        
     }
@@ -85,6 +85,13 @@ h1 {
     font-size: 12px;*/
     font-variant: small-caps;
     color: white;
+}
+
+
+@media (min-width: 768px) {
+    #navControl{ 
+       margin-top: 5rem;
+    }
 }
 
 
