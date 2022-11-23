@@ -59,3 +59,20 @@ img8.addEventListener('click', () => {
 })
 
 
+header=document.querySelector("#headerText");
+header.addEventListener('click', goHome);
+function goHome(){
+    location.href='index.html'
+}
+
+header2=document.querySelector("#headerText2");
+header2.addEventListener('click', goHome);
+function goHome(){
+    location.href='index.html'
+}
+
+Foto = document.querySelector(".fotoCredits");
+Foto.addEventListener('click', () => {
+    // open a new tab
+    const tab = window.open('https://lovisostenrik.com', '_blank')
+})
