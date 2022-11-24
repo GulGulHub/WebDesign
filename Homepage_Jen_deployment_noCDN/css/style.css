@@ -224,7 +224,7 @@ h1 {
 
 
 
-/*----------------- main Index--------------------------------------------------*/
+/*----------------- main Index-------------------------------------------------------------------------------------------------------------*/
 
 main h3 {
     font-variant: small-caps
@@ -242,21 +242,24 @@ table a:hover {
     
 }
 
- 
 
+
+@media (max-width: 576px) {
+
+    #tableCard{
+        padding-right: 5rem;
+    }
+   
+}
 
 #mehrText {
     color: var(--red-color);
     text-decoration: none;
 }
 
-/*#mehrTextLinkProjekte {
-    color: var(--red-color);
-    text-decoration: none;
-    font-size: 3rem;
-    border: 1px, solid, red;
+#mehrTextLinkProjekte {
     font-variant: small-caps;
-}*/
+}
 
 main a {
     color: var(--red-color);
@@ -270,23 +273,11 @@ main a {
     color: var(--third-color);
 }
 
-/*#linkDatenschutz {
-    color: var(--red-color);
-    text-decoration: none;
-    
-}
 
-#linkDatenschutz:hover {
-    text-decoration: var(--red-color);
-    pointer-events: none;
-}*/
-
-/*#borderDaten{
-    border: 1px, solid, var(--red-color);
-}*/
 
 .btn btn-outline-danger{
     border-color: var(--red-color);
+   
 }
 
 
@@ -310,14 +301,9 @@ main a {
     bottom: 0;
     width: 100%;
     color:#595959;
+   background-color:#fcf9f9;
+
 }
 
-@media (max-width: 576px) {
-   #footer{ 
-       display:flex;
-       padding-bottom: 0px;
-       text-align: center;
-       justify-content: center;
-    }
-}
+
 
