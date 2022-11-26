@@ -244,6 +244,11 @@ table a:hover {
     
 }
 
+.brSm{
+    display: block;
+    margin-bottom: 16px;
+}
+
 
 
 @media (max-width: 576px) {
@@ -269,7 +274,7 @@ main a {
 }
 #imgJen{
     width: 20rem;
-}
+   }
 
 .fotoCredits{
     color: var(--third-color);
