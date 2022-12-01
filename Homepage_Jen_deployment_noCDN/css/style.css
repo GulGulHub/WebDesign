@@ -298,7 +298,12 @@ main a {
 /* ----- work on collapse table -------------------------------*/
 
 
-
+@media (max-width: 576px) {
+    #table{ 
+     font-size:1.1em !important;
+   
+    }
+}
 
 
 
