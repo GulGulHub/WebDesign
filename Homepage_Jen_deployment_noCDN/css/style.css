@@ -64,6 +64,12 @@ html {
     }
 }
 
+@media (max-width: 350px) {
+    #logo{ 
+   display:none;
+    }
+}
+
 
 @media (max-width: 576px) {
     #h1{ 
