@@ -274,19 +274,6 @@ table a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
-
-
 #mehrText {
     color: var(--red-color);
     text-decoration: none;
@@ -300,6 +287,26 @@ main a {
     color: var(--red-color);
     
 }
+
+
+/* ----- work on collapse table -------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------kontakt seite------------------------------*/
+
+
+
+
+
 #imgJen{
     width: 20rem;
    }
