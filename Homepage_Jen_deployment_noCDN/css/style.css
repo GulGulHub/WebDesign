@@ -5,9 +5,9 @@
     --third-color: #595959
 }
 
-/*html body{
-    max-height: 100vh;
-}*/
+html {
+    font-size:16px;
+}
 
 #boot-over-body {
     font-family: SourceSansProRegular;
@@ -21,42 +21,65 @@
 
 @media (max-width: 576px) {
     #boot-over-header{ 
-        display: flex;
-       max-height: 40vh;
-        margin-left:;
-        margin-bottom: 40px;
+      display:flex;
+      justify-content: left;
+       max-height: 30vh;
+        margin-bottom: 2em;
         margin-top: 0px;
         padding-top: 0px;
         padding-right:0px !important;
         border-right: 0px;
         margin-right: 0px;
-        
-       
-        
-        
-       
+        text-align: right;
+        column-gap: 0px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    #headerText{ 
+      width:18em;
     }
 }
 
 @media (max-width: 576px) {
+    #headerText2{ 
+      width:5em;
+      padding-right: .5em;
+      padding-top: 
+}
+}
+
+
+@media (max-width: 576px) {
     #logo{ 
-     
-    width: 130px;
-    margin-top: 5rem;
-    margin-right: 10px;
+    width: 10em;
+    margin-top: 2em;
+    margin-right: 1rem;
+    margin-left:0px;
+    padding-left: 0px;
+    padding-right: 4em;
+
     border:0;
     }
 }
 
+
 @media (max-width: 576px) {
-    #headerText{ 
-     font-size:1rem;
+    #h1{ 
+     font-size:1.35em;
+    font-weight: bold;
      margin-top:0rem;
     }
 }
 
 
-
+@media (max-width: 576px) {
+    #ubersetzung{ 
+     font-size:2em;
+     margin-top:0rem;
+    }
+}
 
 
 
@@ -251,13 +274,18 @@ table a:hover {
 
 
 
-@media (max-width: 576px) {
 
-    #tableCard{
-        padding-right: 5rem;
-    }
-   
-}
+
+
+
+
+
+
+
+
+
+ 
+
 
 #mehrText {
     color: var(--red-color);
