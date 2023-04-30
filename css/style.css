@@ -205,6 +205,14 @@ h1 {
 
 }
 
+.control-prev {
+    visibility: hidden;
+}
+
+.control-next {
+    visibility: hidden;
+}
+
 .carousel .img-responsive{
     width:100%;
 }
@@ -217,11 +225,13 @@ h1 {
     text-align: left;
 }
 
-.carousel-control-prev {
+.carousel-control-prev-icon {
+    visibility:visible;
     filter: invert(100%);
 }
 
-.carousel-control-next {
+.carousel-control-next-icon {
+    visibility:visible;
     filter: invert(100%);
 }
 
@@ -237,7 +247,7 @@ h1 {
     right: 20px;
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
     #controls1{ 
    position: absolute;
    top:14rem;
@@ -252,7 +262,7 @@ h1 {
    right:0px;
     }
 }
-
+*/
 
 
 /*----------------- main Index-------------------------------------------------------------------------------------------------------------*/
